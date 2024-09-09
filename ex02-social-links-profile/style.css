@@ -1,0 +1,103 @@
+body {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: var(--grey900);
+    margin: 10% 0;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16%;
+    border-radius: 10px;
+    padding: 2% 3%;
+    gap: 12px;
+
+    background-color: var(--grey800);
+}
+
+    img {
+        width: 80px;
+        height: 80px;
+        border-radius: 150px;
+    }
+
+    #personal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+        h1 {
+            margin: 0;
+            margin-top: 16px;
+            color: var(--white);
+            font-family: var(--font);
+            font-size: 1.25rem;
+            font-weight: 500;
+        }
+
+        #location {
+            margin: 0;
+            color: var(--green);
+            font-family: var(--font);
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+    #description {
+        color: var(--white);
+        font-family: var(--font);
+        font-size: 0.75rem;
+        font-weight: 300;
+    }
+
+    #buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;        
+    }
+
+        button {
+            background-color: var(--grey700);
+            border: none;
+            border-radius: 8px;
+            width: 20em;
+            height: 40px;
+            
+            font-family: var(--font);
+            color: var(--white);
+            font-weight: 600;
+            font-size: 0.75rem;
+        }
+
+        button:hover {
+            background-color: var(--green);
+            color: var(--grey900);
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+@media screen and (max-width: 900px){
+
+    body {
+        align-items: center;
+        align-content: center;
+        margin: 15% 15;
+    }
+
+    #content {
+        width: 90%;
+        padding: 5% 1%;
+    }
+
+        button {
+            width: 25em;;
+        }
+}
