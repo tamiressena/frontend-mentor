@@ -90,15 +90,16 @@ body {
 
 @media screen and (max-width: 900px){
     body {
-        background-size: 200%;
+        background-size: 260%;
     }
     
     #container {
         padding: 5%;
         width: 90%;
         height: 80%;
-        margin-top: 20%;
+        margin-top: 37%;
         margin-bottom: 20%;
+        line-height: 1.5;
     }
 
     #title {
